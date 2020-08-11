@@ -1,0 +1,89 @@
+.mainFormAsk{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ask{
+    margin-top:60px;
+    display: flex;
+    justify-content: center;
+}
+
+.formAsk{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 200px);
+    justify-content: center;
+    border:1px solid #ddd;
+    margin-top: 15px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.formAsk label{
+    margin: 15px 0px;
+}
+
+.formAsk input, select{
+    height: 30px;
+    font-size:20px;
+}
+
+.formAsk input{
+    border:none;
+    border-bottom: 1px solid #ddd;
+}
+
+.formAsk select{
+    width: 200px;
+    border:none;
+    border-bottom: 1px solid #ddd;
+}
+
+.formAsk textarea{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formAskButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.formAskButtons .back{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-left: 20px;
+    background-color: rgb(255, 41, 45);
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    color:#fff;
+}
+
+.formAskButtons .back:hover{
+    transition: all 0.8s;
+    opacity: 80%;
+}
+
+.formAskButtons .send{
+    border:none;
+    background-color:rgb(60,179,113);
+    color:#fff;
+    width:150px;
+    height: 35px;
+    border-radius: 5px;
+    font-family:'Chilanka', sans-serif;
+    font-size: 16px;
+}
+
+.formAskButtons .send:hover{
+    transition: all 0.8s;
+    opacity: 80%;
+}

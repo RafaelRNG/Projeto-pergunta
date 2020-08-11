@@ -1,0 +1,46 @@
+.mainHome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.listTitle{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    margin-top: 15px;
+    width: calc(100% - 200px);
+    border-radius:3px;
+    height: 300px;
+}
+
+.askButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0px 0px 20px;
+    align-items: center;
+    width:250px;
+    height:35px;
+    border:1px solid rgb(60,179,113);
+    border-radius:5px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: rgb(60,179,113);
+    transition: all 0.4s;
+}
+
+.askButton:hover{
+    opacity: 80%;
+    transition: all 0.3s;
+}
+
+.askButton .icon{
+    margin-right: 6px;
+    height: 20px;
+}

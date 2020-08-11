@@ -1,0 +1,90 @@
+.answer {
+    width: 100%;
+}
+
+.answer .containerAsk {
+    display: flex;
+    align-items: center;
+    border:1px solid #ddd;
+    margin:45px 200px;
+    border-radius: 10px;
+}
+
+.containerAsk div{
+    margin-left: 30px;
+}
+
+.identity{
+    margin-top: -20px;
+    display: flex;
+}
+
+.identity h3{
+    margin-left: 15px;
+}
+
+.answerForm{
+    margin: 20px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.answerForm textarea{
+    border:1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.answerForm textarea ~ label{
+    margin-top: 15px;
+}
+
+.answerForm input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border:none;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.answerFormButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.answerFormButtons button{
+    margin-right: 20px;
+    background-color:rgb(60,179,113);
+    color:#fff;
+    border:none;
+    width:150px;
+    height: 35px;
+    border-radius: 5px;
+    font-family:'Chilanka', sans-serif;
+    font-size: 16px;
+}
+
+.answerFormButtons button:hover{
+    transition: all 0.8s;
+    opacity: 80%;
+}
+
+.answerFormButtons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height: 35px;
+    text-decoration: none;
+    background-color: rgb(255, 41, 45);
+    color:#fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.answerFormButtons a:hover{
+    transition: all 0.8s;
+    opacity: 80%;
+}
